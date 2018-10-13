@@ -1,4 +1,6 @@
-﻿Write-Warning ("If there are multiple zip files with the same name, this script will loop forever")
+#Intended to be used in extracting song files downloaded from google drive as sometimes google puts zip files in zip files.
+
+Write-Warning ("If there are multiple zip files with the same name, this script will loop forever")
 [System.Reflection.Assembly]::LoadWithPartialName("System.windows.forms")
 $source
 $processed = @()
